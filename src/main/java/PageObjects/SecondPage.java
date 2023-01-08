@@ -105,7 +105,6 @@ public class SecondPage {
         }
 
         public void choosePicture(){
-            driver.findElement(By.xpath("//*[@id=\"enterinsurantdata\"]")).click();
             driver.findElement(By.xpath("//*[@id=\"open\"]")).click();
             picture.sendKeys("D:/joaof/Pictures/Captura de tela 2022-12-25 224440.png");
         }
